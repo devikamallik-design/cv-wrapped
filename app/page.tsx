@@ -90,7 +90,7 @@ export default function Home() {
     return (
       <RestartContext.Provider value={restart}>
       <main className="stage">
-        <section className="card" aria-roledescription="story" aria-label={`${card.label}, ${index + 1} of ${cards.length}`}>
+        <section className="card" data-tone={card.tone} aria-roledescription="story" aria-label={`${card.label}, ${index + 1} of ${cards.length}`}>
           <div className="progress" aria-hidden>
             {cards.map((c, i) => (
               <span key={c.key} data-state={i < index ? "done" : i === index ? "current" : "todo"} />
@@ -105,7 +105,7 @@ export default function Home() {
             <button className="btn ghost" onClick={() => go(-1)} disabled={index === 0}>
               Back
             </button>
-            <span className="xs muted">
+            <span className="t-xs muted">
               {index + 1} / {cards.length}
             </span>
             {index < cards.length - 1 ? (
@@ -125,10 +125,10 @@ export default function Home() {
   if (state.phase === "loading") {
     return (
       <main className="stage">
-        <section className="card" aria-live="polite">
-          <div className="body" style={{ justifyContent: "center" }}>
+        <section className="card" data-tone="ink" aria-live="polite">
+          <div className="body">
             <p className="kicker">{state.fileName}</p>
-            <h1 className="display h2">Reading your CV</h1>
+            <h1 className="display t-4xl">Reading your CV…</h1>
             <ol className="steps">
               {STEPS.map((s, i) => (
                 <li className="step" key={s} data-state={i < state.step ? "done" : i === state.step ? "active" : "pending"}>
@@ -139,7 +139,7 @@ export default function Home() {
                 </li>
               ))}
             </ol>
-            <p className="xs muted">Usually 10–20 seconds.</p>
+            <p className="t-xs muted">Usually 10–20 seconds.</p>
           </div>
         </section>
       </main>
@@ -148,11 +148,11 @@ export default function Home() {
 
   return (
     <main className="stage">
-      <section className="card">
-        <div className="body" style={{ justifyContent: "center" }}>
-          <h1 className="display huge">Your CV, wrapped.</h1>
-          <p className="lede">
-            Upload your CV and see what&apos;s actually in it: the verbs you lean on, your biggest number, your shape, and what a recruiter will notice first.
+      <section className="card" data-tone="cream">
+        <div className="body">
+          <h1 className="display t-4xl">Your CV, wrapped.</h1>
+          <p>
+            Drop your CV. Get the story it tells: the verbs you lean on, your biggest flex, your work animal, and what a recruiter will notice first.
           </p>
           <label
             className="drop"
@@ -169,8 +169,8 @@ export default function Home() {
               if (f) analyse(f);
             }}
           >
-            <span className="btn">Choose your CV</span>
-            <span className="small muted">or drop it here. PDF, Word or text, up to 5 MB.</span>
+            <strong>Drop your CV here</strong>
+            <span className="t-sm muted">or choose a file. PDF, Word or text, up to 5 MB.</span>
             <input
               ref={inputRef}
               className="sr-only"
@@ -187,7 +187,7 @@ export default function Home() {
               {state.error}
             </p>
           )}
-          <p className="xs muted">
+          <p className="t-xs muted">
             Every number on the cards is counted from your own words. Your CV is sent to Groq to read it. This site doesn&apos;t store it.
           </p>
         </div>

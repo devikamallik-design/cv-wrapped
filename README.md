@@ -30,6 +30,10 @@ Upload a CV and get a set of story cards about what's actually in it: your top v
 - **Level:** Dreyfus stage from years (stated years first, then dated roles). Moves up one step at most, only with 4+ scope signals and within a year of the next band.
 - **Plot twist:** the first rule that fires: design headline with mostly framing/people verbs and few artefacts; headline discipline under 60% of bullets; under 25% of bullets with numbers; otherwise the positive version.
 
+## Look
+
+Matches the Figma file with fewer elements: one colour per card (cream, orange, ink, lime, pink, blue), Inter Tight for display, Instrument Serif italic for the one supporting line per card. Animal illustrations live in `public/animals/` as 640px WebP.
+
 ## Run locally
 
 ```bash
@@ -47,6 +51,5 @@ npm test                     # engine tests on a real CV fixture
 
 ## Open items
 
-- The 8 animal illustrations. The reveal uses emoji until they exist.
 - The name: "Wrapped" is Spotify's campaign name. Pick your own before promoting it publicly.
 - The verb lexicon is design-centric. Test a few non-design CVs and retune if everyone comes out the same animal.
