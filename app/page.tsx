@@ -188,7 +188,7 @@ export default function Home() {
             </p>
           )}
           <p className="t-xs muted">
-            Every number on the cards is counted from your own words. Your CV is sent to Groq to read it. This site doesn&apos;t store it.
+            Every number on the cards is counted from your own words. Your CV is sent to Claude (Anthropic&apos;s API) to read it. This site doesn&apos;t store it.
           </p>
         </div>
       </section>

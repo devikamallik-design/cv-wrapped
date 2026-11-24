@@ -9,16 +9,16 @@ Upload a CV and get a set of story cards about what's actually in it: your top v
 | Step | Who | File |
 |---|---|---|
 | Parse PDF / DOCX / TXT | code (unpdf, mammoth) | `lib/parse.ts` |
-| Extract per-bullet facts | Groq, temperature 0, strict JSON schema | `lib/extract.ts` |
+| Extract per-bullet facts | Claude (Sonnet 5.5), structured JSON output | `lib/extract.ts` |
 | Sanitise | code: drops any bullet not found in the CV text, and any metric, signal or artefact not literally in its bullet | `lib/sanitise.ts` |
 | Score and pick | code: axes, animal, hero stat, verbs, level, roles, receipts, plot twist | `lib/wrapped.ts` |
-| Rewrite one bullet | Groq, one call; rejected if it adds numbers or names, or runs past 24 words | `lib/extract.ts` |
+| Rewrite one bullet | Claude, one call; rejected if it adds numbers or names, or runs past 24 words | `lib/extract.ts` |
 
 ### Fixes for the old Skill Mapper problems
 
 - **Stale results:** the API sends `Cache-Control: no-store`, nothing is saved in the browser or on the server, and only the newest upload can update the screen. The first card shows the file name, pages, headline and bullet count so you can see the right CV was read.
 - **Misreading:** a bullet is kept only if 85% of it matches the CV text. If the model's answer doesn't match the file at all, the app stops with an error instead of showing someone else's results. Scanned PDFs get a clear message.
-- **Dead model:** `llama-3.3-70b-versatile` was shut down on Groq on 16 Aug 2026. This uses `openai/gpt-oss-120b` with strict structured outputs. Override with `GROQ_MODEL`.
+- **Dead model:** the old app called `llama-3.3-70b-versatile` on Groq, which was shut down on 16 Aug 2026. This uses the Claude API (`claude-sonnet-5-5` by default; set `CLAUDE_MODEL=claude-haiku-5-5` for a cheaper run).
 
 ## The logic
 
@@ -38,7 +38,7 @@ Matches the Figma file with fewer elements: one colour per card (cream, orange, 
 
 ```bash
 npm install
-cp .env.example .env.local   # add your Groq key
+cp .env.example .env.local   # add your Anthropic API key
 npm run dev
 npm test                     # engine tests on a real CV fixture
 ```
@@ -46,7 +46,7 @@ npm test                     # engine tests on a real CV fixture
 ## Deploy on Vercel
 
 1. Import this repo in Vercel.
-2. Add `GROQ_API_KEY` under Settings > Environment Variables with **Production** ticked.
+2. Add `ANTHROPIC_API_KEY` under Settings > Environment Variables with **Production** ticked.
 3. Deploy. If the key is missing, the app says so instead of failing with a blank 500.
 
 ## Open items
