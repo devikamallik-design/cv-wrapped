@@ -1,0 +1,302 @@
+{
+  "headline": "Product Designer",
+  "statedYears": 4,
+  "roles": [
+    {
+      "title": "Product Strategy and UX Consultant",
+      "org": "Vizara Technologies",
+      "startYear": 2021,
+      "endYear": 2024,
+      "current": false,
+      "isEducation": false,
+      "bullets": [
+        {
+          "text": "Sole product designer delivering end-to-end design across 5+ digital platforms in government, cultural, and immersive-tech contexts, taking products from research and concept through to shipped, developer-handed-off builds. Worked within agile sprint cycles, setting design milestones, and collaborating directly with engineering and product stakeholders.",
+          "peopleSignals": ["collaborating directly with engineering and product stakeholders"],
+          "scopeSignals": ["Sole product designer", "end-to-end design across 5+ digital platforms"],
+          "artefacts": ["developer-handed-off builds"],
+          "metrics": [{ "raw": "5+ digital platforms", "kind": "count", "subject": null }],
+          "domain": "culture_immersive",
+          "discipline": "product_design"
+        },
+        {
+          "text": "Increased walkthrough completion from under 5% to ~31% by replacing linear navigation with hotspot-based exploration across 3 user segments; on a separate platform, increased content discovery from under 1% to ~13%.",
+          "peopleSignals": [],
+          "scopeSignals": ["across 3 user segments"],
+          "artefacts": ["hotspot-based exploration"],
+          "metrics": [
+            { "raw": "from under 5% to ~31%", "kind": "before_after", "subject": "walkthrough completion" },
+            { "raw": "from under 1% to ~13%", "kind": "before_after", "subject": "content discovery" },
+            { "raw": "3 user segments", "kind": "count", "subject": null }
+          ],
+          "domain": "culture_immersive",
+          "discipline": "product_design"
+        },
+        {
+          "text": "Shipped live products across government, institutional, and exhibition contexts; on a live AR exhibition product, measured 6.1/7 satisfaction across 22 on-site users through structured testing.",
+          "peopleSignals": [],
+          "scopeSignals": [],
+          "artefacts": ["live AR exhibition product"],
+          "metrics": [
+            { "raw": "6.1/7 satisfaction", "kind": "rating", "subject": "satisfaction" },
+            { "raw": "22 on-site users", "kind": "count", "subject": null }
+          ],
+          "domain": "culture_immersive",
+          "discipline": "product_design"
+        },
+        {
+          "text": "Conducted ethnographic fieldwork visiting artisans on-site to translate lived craft practice into navigable digital experiences.",
+          "peopleSignals": ["visiting artisans on-site"],
+          "scopeSignals": [],
+          "artefacts": [],
+          "metrics": [],
+          "domain": "culture_immersive",
+          "discipline": "ux_research"
+        },
+        {
+          "text": "Integrated engineering earlier in the design cycle, sat with developers during implementation including Unity UI work, and structured developer handoff, cutting revision cycles by ~40% and late-stage rework by ~12%.",
+          "peopleSignals": ["sat with developers during implementation"],
+          "scopeSignals": [],
+          "artefacts": ["developer handoff", "Unity UI work"],
+          "metrics": [
+            { "raw": "~40%", "kind": "percent_change", "subject": "revision cycles" },
+            { "raw": "~12%", "kind": "percent_change", "subject": "late-stage rework" }
+          ],
+          "domain": "culture_immersive",
+          "discipline": "product_design"
+        },
+        {
+          "text": "Contributed UX strategy and design assets to a government portal concept delivered in 7 days, supporting a $4M public-sector partnership opportunity.",
+          "peopleSignals": [],
+          "scopeSignals": ["$4M public-sector partnership opportunity"],
+          "artefacts": ["government portal concept"],
+          "metrics": [
+            { "raw": "$4M", "kind": "money", "subject": "public-sector partnership opportunity" },
+            { "raw": "7 days", "kind": "time", "subject": null }
+          ],
+          "domain": "public_sector",
+          "discipline": "strategy"
+        }
+      ]
+    },
+    {
+      "title": "Product Designer",
+      "org": "Freelance",
+      "startYear": 2020,
+      "endYear": null,
+      "current": true,
+      "isEducation": false,
+      "bullets": [
+        {
+          "text": "Independent product design for early-stage startups: built complete product foundations from partial briefs (user flows, design systems, edge cases, error and empty states, monetisation), and advised pre-seed founders on UX and AI interaction standards including source transparency and recommendation framing. Work incorporated into client builds and investor materials.",
+          "peopleSignals": ["advised pre-seed founders"],
+          "scopeSignals": ["complete product foundations from partial briefs"],
+          "artefacts": ["user flows", "design systems", "error and empty states"],
+          "metrics": [],
+          "domain": "other",
+          "discipline": "product_design"
+        }
+      ]
+    },
+    {
+      "title": "AI Product Design",
+      "org": "EY Seren",
+      "startYear": 2024,
+      "endYear": 2025,
+      "current": false,
+      "isEducation": false,
+      "bullets": [
+        {
+          "text": "Led mixed-methods research to address gender bias and build trust in AI-driven financial products during high-stakes financial moments.",
+          "peopleSignals": [],
+          "scopeSignals": ["Led mixed-methods research"],
+          "artefacts": [],
+          "metrics": [],
+          "domain": "fintech",
+          "discipline": "ux_research"
+        },
+        {
+          "text": "Designed a predictive AI financial companion for women that detects high-risk financial moments and intervenes in real time, using behavioural and physiological signals without removing user agency.",
+          "peopleSignals": [],
+          "scopeSignals": [],
+          "artefacts": ["predictive AI financial companion"],
+          "metrics": [{ "raw": "40% uplift in engagement", "kind": "percent_change", "subject": "engagement" }],
+          "domain": "fintech",
+          "discipline": "product_design"
+        },
+        {
+          "text": "Grounded in 130+ surveys and 15+ interviews; identified trust breakdown points across onboarding friction, unfamiliar-market anxiety, and gender-skewed assumptions.",
+          "peopleSignals": [],
+          "scopeSignals": [],
+          "artefacts": [],
+          "metrics": [
+            { "raw": "130+ surveys", "kind": "count", "subject": null },
+            { "raw": "15+ interviews", "kind": "count", "subject": null }
+          ],
+          "domain": "fintech",
+          "discipline": "ux_research"
+        },
+        {
+          "text": "Developed a Trust Pyramid framework governing how AI earns credibility progressively; tested across three intervention models, achieving a 60% increase in positive user feedback. Presented findings and product direction to EY's design team.",
+          "peopleSignals": ["Presented findings and product direction to EY's design team"],
+          "scopeSignals": [],
+          "artefacts": ["Trust Pyramid framework"],
+          "metrics": [{ "raw": "60% increase", "kind": "percent_change", "subject": "positive user feedback" }],
+          "domain": "fintech",
+          "discipline": "ux_research"
+        },
+        {
+          "text": "Led a team of 12 designers to redesign the Monzo savings flow.",
+          "peopleSignals": ["team of 12 designers"],
+          "scopeSignals": [],
+          "artefacts": ["savings flow"],
+          "metrics": [{ "raw": "12 designers", "kind": "count", "subject": null }],
+          "domain": "fintech",
+          "discipline": "product_design"
+        }
+      ]
+    },
+    {
+      "title": "Product Design, HealthTech Startup",
+      "org": "Imperial College London",
+      "startYear": 2024,
+      "endYear": 2025,
+      "current": false,
+      "isEducation": false,
+      "bullets": [
+        {
+          "text": "Led MVP scoping and patient-side product design for a dual-sided healthcare marketplace responding to NHS access delays, connecting patients with verified GPs for same-day home visits in London.",
+          "peopleSignals": [],
+          "scopeSignals": ["Led MVP scoping"],
+          "artefacts": ["dual-sided healthcare marketplace"],
+          "metrics": [],
+          "domain": "healthtech",
+          "discipline": "product_design"
+        },
+        {
+          "text": "Solved the supply-side chicken-and-egg problem: GPs browse patient demand and build profiles before completing verification, with bookings locked until medical credentials are manually approved.",
+          "peopleSignals": [],
+          "scopeSignals": [],
+          "artefacts": [],
+          "metrics": [],
+          "domain": "healthtech",
+          "discipline": "product_design"
+        },
+        {
+          "text": "Designed two distinct patient onboarding entry modes within a single interface: emergency users browse and book first with account creation deferred to payment; routine users onboard fully upfront.",
+          "peopleSignals": [],
+          "scopeSignals": [],
+          "artefacts": ["patient onboarding entry modes"],
+          "metrics": [],
+          "domain": "healthtech",
+          "discipline": "product_design"
+        },
+        {
+          "text": "Owned GP compliance onboarding across three progressive stages, mapping documentation and regulatory requirements sequentially to reduce abandonment without compromising compliance.",
+          "peopleSignals": [],
+          "scopeSignals": ["Owned GP compliance onboarding"],
+          "artefacts": ["GP compliance onboarding"],
+          "metrics": [],
+          "domain": "healthtech",
+          "discipline": "product_design"
+        },
+        {
+          "text": "Scoped the product from 30+ features to 12 across two structured prioritisation workshops, aligning founders, clinical advisors, and engineering on MVP scope. Delivered build-ready MVP and developer-handoff specification, validated through stakeholder review.",
+          "peopleSignals": ["aligning founders, clinical advisors, and engineering"],
+          "scopeSignals": ["MVP scope"],
+          "artefacts": ["build-ready MVP", "developer-handoff specification"],
+          "metrics": [{ "raw": "from 30+ features to 12", "kind": "before_after", "subject": null }],
+          "domain": "healthtech",
+          "discipline": "product_design"
+        }
+      ]
+    },
+    {
+      "title": "Service Design, Ministry of Defence",
+      "org": "WICKED Acceleration Labs",
+      "startYear": 2024,
+      "endYear": 2025,
+      "current": false,
+      "isEducation": false,
+      "bullets": [
+        {
+          "text": "Led systems mapping and business design methods to support the Royal Air Force's goal of reducing carbon emissions and embedding Social Value provisions into procurement and delivery.",
+          "peopleSignals": [],
+          "scopeSignals": ["Led systems mapping"],
+          "artefacts": [],
+          "metrics": [],
+          "domain": "public_sector",
+          "discipline": "service_design"
+        },
+        {
+          "text": "Diagnosed the core failure as structural rather than financial: sustainability accountability sat between functions with no clear ownership across the procurement chain.",
+          "peopleSignals": [],
+          "scopeSignals": [],
+          "artefacts": [],
+          "metrics": [],
+          "domain": "public_sector",
+          "discipline": "service_design"
+        },
+        {
+          "text": "Designed a Social Value Activation Plan embedding sustainability outcomes into procurement decision-making at the point of design, co-developed with policy, procurement, and delivery stakeholders.",
+          "peopleSignals": ["co-developed with policy, procurement, and delivery stakeholders"],
+          "scopeSignals": [],
+          "artefacts": ["Social Value Activation Plan"],
+          "metrics": [],
+          "domain": "public_sector",
+          "discipline": "service_design"
+        }
+      ]
+    },
+    {
+      "title": "MA Service Design",
+      "org": "Royal College of Art",
+      "startYear": 2024,
+      "endYear": 2025,
+      "current": false,
+      "isEducation": true,
+      "bullets": []
+    },
+    {
+      "title": "Recognition and Leadership",
+      "org": "VOXAGO INDIA",
+      "startYear": null,
+      "endYear": null,
+      "current": false,
+      "isEducation": false,
+      "bullets": [
+        {
+          "text": "Co-Led 60-day women's health sprint (VOXAGO INDIA): 190 surveys, 50 interviews, ecosystem and journey mapping across access barriers to women's health services in India.",
+          "peopleSignals": [],
+          "scopeSignals": ["Co-Led 60-day women's health sprint"],
+          "artefacts": ["ecosystem and journey mapping"],
+          "metrics": [
+            { "raw": "190 surveys", "kind": "count", "subject": null },
+            { "raw": "50 interviews", "kind": "count", "subject": null }
+          ],
+          "domain": "healthtech",
+          "discipline": "ux_research"
+        }
+      ]
+    },
+    {
+      "title": "Product Delivery Associate",
+      "org": "QAI/QGLUE",
+      "startYear": 2018,
+      "endYear": 2020,
+      "current": false,
+      "isEducation": false,
+      "bullets": [
+        {
+          "text": "Coordinated enterprise Agile and Design Thinking programmes across Southeast Asia.",
+          "peopleSignals": [],
+          "scopeSignals": ["across Southeast Asia"],
+          "artefacts": [],
+          "metrics": [],
+          "domain": "other",
+          "discipline": "delivery"
+        }
+      ]
+    }
+  ]
+}

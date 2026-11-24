@@ -1,0 +1,83 @@
+Devika Mallik
+Product Designer
+London, UK · Portfolio · Linkedin
+PROFILE
+Product designer with 4 years delivering complex, multi-sided digital products across fintech, healthcare, and
+experiential platforms. Moves with ease across interaction states and edge cases to compliance flows and system
+architecture. Trained in Service Design and Systems Thinking at the Royal College of Art, with a background in
+economics. Experienced designing in regulated, high-stakes environments where design decisions carry real
+consequences.
+PROFESSIONAL EXPERIENCE
+Product Strategy and UX Consultant | Vizara Technologies, India. 2021–2024
+· Sole product designer delivering end-to-end design across 5+ digital platforms in government, cultural, and
+immersive-tech contexts, taking products from research and concept through to shipped, developer-handed-off
+builds. Worked within agile sprint cycles, setting design milestones, and collaborating directly with engineering
+and product stakeholders.
+· Increased walkthrough completion from under 5% to ~31% by replacing linear navigation with hotspot-based
+exploration across 3 user segments; on a separate platform, increased content discovery from under 1% to ~13%.
+· Shipped live products across government, institutional, and exhibition contexts; on a live AR exhibition product,
+measured 6.1/7 satisfaction across 22 on-site users through structured testing.
+· Conducted ethnographic fieldwork visiting artisans on-site to translate lived craft practice into navigable digital
+experiences.
+· Integrated engineering earlier in the design cycle, sat with developers during implementation including Unity UI
+work, and structured developer handoff, cutting revision cycles by ~40% and late-stage rework by ~12%.
+· Contributed UX strategy and design assets to a government portal concept delivered in 7 days, supporting a $4M
+public-sector partnership opportunity.
+Product Designer | Freelance, India, UK and International 2020–Present
+· Independent product design for early-stage startups: built complete product foundations from partial briefs
+(user flows, design systems, edge cases, error and empty states, monetisation), and advised pre-seed founders
+on UX and AI interaction standards including source transparency and recommendation framing. Work
+incorporated into client builds and investor materials.
+SPONSORED AND PARTNER PROJECT
+AI Product Design, EY Seren | EY Industry Partner Project 2024–2025
+Led mixed-methods research to address gender bias and build trust in AI-driven financial products during high-stakes
+financial moments.
+· Designed a predictive AI financial companion for women that detects high-risk financial moments and
+intervenes in real time, using behavioural and physiological signals without removing user agency.
+· Grounded in 130+ surveys and 15+ interviews; identified trust breakdown points across onboarding friction,
+unfamiliar-market anxiety, and gender-skewed assumptions.
+· Developed a Trust Pyramid framework governing how AI earns credibility progressively; tested across three
+intervention models, achieving a 60% increase in positive user feedback. Presented findings and product direction to
+EY's design team.
+Product Design, HealthTech Startup | Imperial College London 2024–2025
+Led MVP scoping and patient-side product design for a dual-sided healthcare marketplace responding to NHS access
+delays, connecting patients with verified GPs for same-day home visits in London.
+· Solved the supply-side chicken-and-egg problem: GPs browse patient demand and build profiles before completing
+verification, with bookings locked until medical credentials are manually approved.
+· Designed two distinct patient onboarding entry modes within a single interface: emergency users browse and
+book first with account creation deferred to payment; routine users onboard fully upfront.
+· Owned GP compliance onboarding across three progressive stages, mapping documentation and regulatory
+requirements sequentially to reduce abandonment without compromising compliance.
+· Scoped the product from 30+ features to 12 across two structured prioritisation workshops, aligning founders,
+clinical advisors, and engineering on MVP scope. Delivered build-ready MVP and developer-handoff specification,
+validated through stakeholder review.
+Service Design, Ministry of Defence | WICKED Acceleration Labs, Imperial College London2024–2025
+Led systems mapping and business design methods to support the Royal Air Force's goal of reducing carbon emissions
+and embedding Social Value provisions into procurement and delivery.
+· Diagnosed the core failure as structural rather than financial: sustainability accountability sat between functions
+with no clear ownership across the procurement chain.
+· Designed a Social Value Activation Plan embedding sustainability outcomes into procurement decisionmaking at the point of design, co-developed with policy, procurement, and delivery stakeholders.
+EDUCATION
+MA Service Design | Royal College of Art, London 2024–2025
+BA (Hons) Economics | Kirori Mal College, University of Delhi 2014–2017
+SKILLS AND TOOLS
+Product Design: Interaction Design, Information Architecture, Wireframing, High-Fidelity Prototyping, Visual Design,
+Design Systems, Developer Handoff, MVP Definition, Feature Prioritisation, AI Design, Accessibility, User-Centred
+Design
+Tools: Figma, FigJam, Framer, Jitter, Adobe Suite, Lovable, v0, Vercel, Claude API, Groq API, Next.js
+INDEPENDENT AI BUILDS ( VIBE CODING PLAYGROUND)
+· SplitClean: A bill-splitting app that parses receipt photos using OCR, extracts line items, and divides costs across a
+group. Built with Claude API, deployed on Vercel and Render.
+· CV Skill Analyser: A career analysis tool running three simultaneous frameworks (Dreyfus, T/Pi/M, domain
+categorisation), simulating a panel of hiring manager, career coach, and talent strategist. Built with Next.js, Groq
+API, and Vercel.
+· Blobby: A generative animated blob background tool with colour, motion, grain, and palette-extraction from
+uploaded images.
+RECOGNITION AND LEADERSHIP
+· Top 3 Global: Student Service Design Challenge (Red Cross Brief) · Top 5: Design for Good Global Showcase.
+· Co-Led 60-day women's health sprint (VOXAGO INDIA): 190 surveys, 50 interviews, ecosystem and journey
+mapping across access barriers to women's health services in India.
+· Design Coach, RCA x London Business School: mentored 6 MBA students on product design and systems
+thinking.
+Prior to design: 2018–2020, Product Delivery Associate, QAI/QGLUE, India. Coordinated enterprise Agile and Design Thinking
+programmes across Southeast Asia.
