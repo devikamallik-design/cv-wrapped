@@ -6,7 +6,8 @@ import { EngineError, computeWrapped } from "@/lib/wrapped";
 
 // Node runtime (the default). POST handlers are never cached; the no-store header below
 // also stops any CDN or browser from reusing an old result.
-export const maxDuration = 60;
+// Sonnet takes 30-60 s to read a two-page CV; leave headroom for longer ones.
+export const maxDuration = 300;
 
 const NO_STORE = { "Cache-Control": "no-store, max-age=0" };
 

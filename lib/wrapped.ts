@@ -255,14 +255,15 @@ export function computeWrapped(
   // Framing ↔ Making, from the fixed lexicon. Lead verb weighs 1, others 0.5.
   let framing = 0;
   let making = 0;
-  const verbTally = new Map<string, { count: number; family: VerbFamily }>();
+  const verbTally = new Map<string, { count: number; leads: number; family: VerbFamily }>();
   for (const b of bullets) {
     for (const v of verbsIn(b.text)) {
       const w = v.lead ? 1 : 0.5;
       if (v.family === "framing") framing += w;
       if (v.family === "making") making += w;
-      const t = verbTally.get(v.verb) ?? { count: 0, family: v.family };
+      const t = verbTally.get(v.verb) ?? { count: 0, leads: 0, family: v.family };
       t.count += 1;
+      if (v.lead) t.leads += 1;
       verbTally.set(v.verb, t);
     }
   }
@@ -325,8 +326,10 @@ export function computeWrapped(
   }
 
   const topVerbs = [...verbTally]
-    .map(([verb, t]) => ({ verb: capitalise(verb), count: t.count, family: t.family }))
-    .sort((a, b) => b.count - a.count || a.verb.localeCompare(b.verb))
+    .map(([verb, t]) => ({ verb: capitalise(verb), count: t.count, leads: t.leads, family: t.family }))
+    // Ties go to the verb that opens more bullets: that's the one a skimmer reads.
+    .sort((a, b) => b.count - a.count || b.leads - a.leads || a.verb.localeCompare(b.verb))
+    .map(({ verb, count, family }) => ({ verb, count, family }))
     .slice(0, 5);
 
   // Biggest flex.

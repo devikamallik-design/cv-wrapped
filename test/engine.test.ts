@@ -103,3 +103,11 @@ describe("rewrite validation", () => {
     expect(validateRewrite(original, Array(30).fill("word").join(" "))).toBe(false);
   });
 });
+
+describe("verb counting", () => {
+  it("ignores tool credits like 'Built with Next.js'", async () => {
+    const { verbsIn } = await import("../lib/lexicon");
+    expect(verbsIn("SplitClean: a bill app. Built with Claude API, deployed on Vercel.").map((v) => v.verb)).toEqual([]);
+    expect(verbsIn("Built a payments service in Go.").map((v) => v.verb)).toEqual(["built"]);
+  });
+});

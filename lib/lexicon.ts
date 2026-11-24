@@ -92,6 +92,9 @@ export function verbsIn(text: string): VerbHit[] {
     if (!family || seen.has(lower)) return;
     const prev = i > 0 ? words[i - 1].toLowerCase() : "";
     if (i > 0 && ADJECTIVE_CONTEXT.has(prev)) return;
+    // "Built with Next.js", "deployed on Vercel": tool credits, not actions.
+    const next = (words[i + 1] ?? "").toLowerCase();
+    if ((next === "with" || next === "on" || next === "using") && /^(built|made|deployed|developed|created|coded)$/.test(lower)) return;
     if (/\d\s*$/.test(text.slice(0, text.indexOf(w)))) return;
     seen.add(lower);
     const lead = !leadFound && i < 3;

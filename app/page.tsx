@@ -41,7 +41,7 @@ export default function Home() {
 
     const timer = setInterval(() => {
       setState((s) => (s.phase === "loading" && s.step < STEPS.length - 2 ? { ...s, step: s.step + 1 } : s));
-    }, 2200);
+    }, 9000);
 
     try {
       const body = new FormData();
@@ -139,7 +139,7 @@ export default function Home() {
                 </li>
               ))}
             </ol>
-            <p className="t-xs muted">Usually 10–20 seconds.</p>
+            <p className="t-xs muted">Usually 30–60 seconds. Claude reads every bullet.</p>
           </div>
         </section>
       </main>
